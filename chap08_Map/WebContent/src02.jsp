@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 
 <h2>javascript navigator</h2>
-
+무럼ㄴ우리ㅓㅏㅁ뭐야 이게류ㅠㅠㅠ
 <script>
 	console.log(navigator.geolocation);	// 사용자 위치정보를 담고 있는 객체
 	// https 가 아니면 이건 쓸 수가 없음.  -  브라우저가 차단을 검
