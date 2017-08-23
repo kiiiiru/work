@@ -9,4 +9,15 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <!-- http 접속시 connector에 설정해둔 port로 redirect 가 일어남 -->
+  <security-constraint>
+  	<web-resource-collection>
+  		<web-resource-name>Automatic SSL Forward</web-resource-name>
+  		<url-pattern>/*</url-pattern>
+  	</web-resource-collection>
+  	<user-data-constraint>
+  		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
+  	</user-data-constraint>
+  </security-constraint>
 </web-app>
