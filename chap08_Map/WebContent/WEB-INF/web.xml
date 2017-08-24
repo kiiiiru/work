@@ -20,4 +20,8 @@
   		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
   	</user-data-constraint>
   </security-constraint>
+  <!-- 세션 유지시간 변경 ( default : 30 ) -->
+  <session-config>
+  	<session-timeout>10</session-timeout>
+  </session-config>
 </web-app>
