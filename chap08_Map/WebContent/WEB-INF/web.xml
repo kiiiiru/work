@@ -20,4 +20,7 @@
   		<transport-guarantee>CONFIDENTIAL</transport-guarantee>
   	</user-data-constraint>
   </security-constraint>
+  <session-config>
+  	<session-timeout>20</session-timeout>
+  </session-config>
 </web-app>
